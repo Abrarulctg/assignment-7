@@ -1,0 +1,9 @@
+.player-card{
+    padding: 20px;
+    text-align: center;
+}
+.player-card img{
+    border-radius: 50%;
+    width: 100%;
+    border: 3px solid tomato;
+}
