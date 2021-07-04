@@ -28,7 +28,7 @@ const Player = () => {
                     <div className="row">
                         {
                             player.map((player) =>
-                                <div className="col-md-4 mb-3 hvr-float">
+                                <div className="col-md-4 mb-3 hvr-float" key={player.id}>
                                     <div className="card">
                                         <SinglePlayer
                                             player={player}
@@ -42,7 +42,7 @@ const Player = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <PlayerCart playerCart={playerCart}></PlayerCart>
+                    <PlayerCart playerCart={playerCart} ></PlayerCart>
                 </div>
             </div>
         </div>
