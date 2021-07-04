@@ -10,7 +10,7 @@ const SinglePlayer = (props) => {
     return (
         <div className="player-card">
             <img src={photo} alt="" />
-            <h4 className="mt-3">{first_name} {last_name}</h4>
+            <h4 className="mt-3 player-name">{first_name} {last_name}</h4>
             <h6>{email}</h6>
             <h5>Salary: ${salary}</h5>
             <button className="btn-success mt-3 py-2 px-4 rounded-pill" onClick={() => handleAddPlayer()} > <FontAwesomeIcon icon={faCartPlus} /> Add Player </button>

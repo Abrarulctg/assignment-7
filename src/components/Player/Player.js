@@ -28,7 +28,7 @@ const Player = () => {
                     <div className="row">
                         {
                             player.map((player) =>
-                                <div className="col-md-4 mb-3">
+                                <div className="col-md-4 mb-3 hvr-float">
                                     <div className="card">
                                         <SinglePlayer
                                             player={player}
